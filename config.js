@@ -5,7 +5,7 @@ const config = {
   appName: "APST",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app.",
+    "APST education and training provide a range of opportunities to schools, pupils and teaching professionals.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
   domainName: "apst.uk",
   crisp: {
