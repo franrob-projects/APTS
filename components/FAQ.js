@@ -7,22 +7,27 @@ import { useRef, useState } from "react";
 
 const faqList = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    question: "Can I use this course for university?",
+    answer: <div className="space-y-2 leading-relaxed">Yes! Many of our students have gone on to study subjects like Law, Policing, and Fire Safety at university.</div>,
   },
   {
-    question: "Can I get a refund?",
+    question: "Do I have to join the armed forces?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        No, joining the military is not a requirement. The course focuses on various areas within the Uniformed Protective Services, and we help guide you towards the career path that suits you best, whether that includes the military or not.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "What qualification will I receive?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <div className="space-y-2 leading-relaxed">You’ll earn a BTEC Extended Diploma in Uniformed Protective Services, which is equivalent to three A Levels.</div>
+    ),
+  },
+  {
+    question: "What GCSE grades do I need to join the course?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">You’ll need a minimum of a grade 3 in your GCSEs. If you don't have English or Maths, you can still join, but you'll be required to resit these subjects by attending additional classes.</div>
     ),
   },
 ];

@@ -4,15 +4,15 @@ const avatars = [
   {
     alt: "User",
     // Ideally, load from a statically generated image for better SEO performance (import userImage from "@/public/userImage.png")
-    src: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3276&q=80",
+    src: "https://images.unsplash.com/photo-1699899657675-1003c7d28f2d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhZCUyMHNob3R8ZW58MHx8MHx8fDI%3D",
   },
   {
     alt: "User",
-    src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    src: "https://images.unsplash.com/photo-1597677012542-ef144cff4a70?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGhlYWQlMjBzaG90fGVufDB8fDB8fHwy",
   },
   {
     alt: "User",
-    src: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    src: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM2fHxoZWFkJTIwc2hvdHxlbnwwfHwwfHx8Mg%3D%3D",
   },
   {
     alt: "User",
@@ -20,7 +20,7 @@ const avatars = [
   },
   {
     alt: "User",
-    src: "https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3376&q=80",
+    src: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZCUyMHNob3QlMjBtYW4lMjBwcm9mZmVzc2lvbmFsfGVufDB8fDB8fHwy",
   },
 ];
 
@@ -63,8 +63,8 @@ const TestimonialsAvatars = ({ priority = false }) => {
         </div>
 
         <div className="text-base text-base-content/80">
-          <span className="font-semibold text-base-content">32</span> makers
-          ship faster
+          <span className="font-semibold text-base-content">32</span> teachers
+          endorse APST
         </div>
       </div>
     </div>
@@ -72,3 +72,5 @@ const TestimonialsAvatars = ({ priority = false }) => {
 };
 
 export default TestimonialsAvatars;
+
+

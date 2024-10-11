@@ -47,19 +47,19 @@ const Problem = () => {
           80% of young school leavers struggle to find a career
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-          Activity based learning, community. blah blah etc etc
+        A fun learning experience full of opportunity 
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
-          <Step emoji="🧑‍💻" text="8 hrs to add Stripe" />
+          <Step emoji="🧑‍💻" text="No direction" />
 
           <Arrow extraStyle="max-md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😮‍💨" text="Struggle to find time" />
+          <Step emoji="😮‍💨" text="No experience" />
 
           <Arrow extraStyle="md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😔" text="Quit project" />
+          <Step emoji="😔" text="No career" />
         </div>
       </div>
     </section>
