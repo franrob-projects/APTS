@@ -17,9 +17,9 @@ export default function Home() {
       <main>
         <Hero />
         <Problem />
+        <FAQ />
         <FeaturesListicle />
         <FeaturesAccordion />
-        <FAQ />
         <CTA />
       </main>
       <Footer />

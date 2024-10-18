@@ -202,9 +202,9 @@ const FeaturesAccordion = () => {
     >
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
-        Step-by-step guide to enrolling on
+        Enroll on the 
           <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
-          APST's learning program
+          APST program
           </span>
         </h2>
         <div className=" flex flex-col md:flex-row gap-12 md:gap-24">
