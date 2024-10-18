@@ -2,13 +2,17 @@
 
 import { useRef, useState } from "react";
 
-// <FAQ> component is a lsit of <Item> component
+// <FAQ> component is a list of <Item> components
 // Just import the FAQ & add your FAQ content to the const faqList
 
 const faqList = [
   {
     question: "Can I use this course for university?",
-    answer: <div className="space-y-2 leading-relaxed">Yes! Many of our students have gone on to study subjects like Law, Policing, and Fire Safety at university.</div>,
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Yes! Many of our students have gone on to study subjects like Law, Policing, and Fire Safety at university.
+      </div>
+    ),
   },
   {
     question: "Do I have to join the armed forces?",
@@ -21,13 +25,17 @@ const faqList = [
   {
     question: "What qualification will I receive?",
     answer: (
-      <div className="space-y-2 leading-relaxed">You’ll earn a BTEC Extended Diploma in Uniformed Protective Services, which is equivalent to three A Levels.</div>
+      <div className="space-y-2 leading-relaxed">
+        You&apos;ll earn a BTEC Extended Diploma in Uniformed Protective Services, which is equivalent to three A Levels.
+      </div>
     ),
   },
   {
     question: "What GCSE grades do I need to join the course?",
     answer: (
-      <div className="space-y-2 leading-relaxed">You’ll need a minimum of a grade 3 in your GCSEs. If you don't have English or Maths, you can still join, but you'll be required to resit these subjects by attending additional classes.</div>
+      <div className="space-y-2 leading-relaxed">
+        You&apos;ll need a minimum of a grade 3 in your GCSEs. If you don&apos;t have English or Maths, you can still join, but you&apos;ll be required to resit these subjects by attending additional classes.
+      </div>
     ),
   },
 ];
@@ -52,7 +60,7 @@ const Item = ({ item }) => {
           {item?.question}
         </span>
         <svg
-          className={`flex-shrink-0 w-4 h-4 ml-auto fill-current`}
+          className="flex-shrink-0 w-4 h-4 ml-auto fill-current"
           viewBox="0 0 16 16"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -79,10 +87,10 @@ const Item = ({ item }) => {
 
       <div
         ref={accordion}
-        className={`transition-all duration-300 ease-in-out opacity-80 overflow-hidden`}
+        className="transition-all duration-300 ease-in-out opacity-80 overflow-hidden"
         style={
           isOpen
-            ? { maxHeight: accordion?.current?.scrollHeight, opacity: 1 }
+            ? { maxHeight: accordion.current.scrollHeight, opacity: 1 }
             : { maxHeight: 0, opacity: 0 }
         }
       >
