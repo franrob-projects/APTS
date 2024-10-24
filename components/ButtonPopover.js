@@ -58,7 +58,7 @@ const ButtonPopover = () => {
                       </svg>
                     </span>
                     <div className="">
-                      <p className="font-bold">APST apparel</p>
+                      <p className="font-bold">APST clothing</p>
                       <p className="opacity-70">
                         Loreum ipseum de la madre de papa
                       </p>

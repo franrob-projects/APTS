@@ -15,7 +15,7 @@ const links = [
   },
   {
     href: "/#testimonials",
-    label: "Reviews",
+    label: "Enrol",
   },
   {
     href: "/#faq",

@@ -17,14 +17,11 @@ const Hero = () => {
         </a>
 
         <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
-          Uniformed services education and training
+          Education & training providers
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-        APST’s pre-service uniformed protective services programs provide individuals aged 16 to 19 with a strong academic foundation and practical skills for future careers.
+        APST's offer Uniformed Protective Services qualifications & Duke of Edinburgh (DofE) awards.
         </p>
-        <button className="btn btn-primary btn-wide">
-          Enroll {config.appName}
-        </button>
 
         <TestimonialsAvatars priority={true} />
       </div>

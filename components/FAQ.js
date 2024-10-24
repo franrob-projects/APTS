@@ -34,7 +34,7 @@ const faqList = [
     question: "What GCSE grades do I need to join the course?",
     answer: (
       <div className="space-y-2 leading-relaxed">
-        You&apos;ll need a minimum of a grade 3 in your GCSEs. If you don&apos;t have English or Maths, you can still join, but you&apos;ll be required to resit these subjects by attending additional classes.
+        You&apos;ll need a minimum of grade 3 in your GCSEs. If you don&apos;t have English or Maths, you can still join, but you&apos;ll be required to resit these subjects by attending additional classes.
       </div>
     ),
   },
