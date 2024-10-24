@@ -56,10 +56,10 @@ const features = [
     ),
   },
   {
-    title: "Visit sixth form page",
+    title: "Visit School Websites",
     description: (
       <>
-        Visit the schools' specific sixth form page:
+        Visit the schools&apos; specific sixth form page:
         <ul>
           <li>
             <a href="https://www.qphs.co.uk/page/?title=Sixth+Form&pid=10" target="_blank" rel="noopener noreferrer">
