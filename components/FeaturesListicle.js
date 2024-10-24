@@ -195,7 +195,7 @@ const FeaturesListicle = () => {
           </h2>
           <div className="text-base-content/80 leading-relaxed mb-8 lg:text-lg">
             {/* 💡 COPY TIP: Explain how your product delivers what you promise in the headline. */}
-            The BTEC Level 3 Extended Diploma in Uniformed Protective Services is structured into three main strands, encompassing seven mandatory units and six specialist units. Below is a breakdown of the course:
+            APST provide the BTEC Level 3 Extended Diploma in Uniformed Protective Services & the DofE award. Below is a breakdown of the courses:
           </div>
         </div>
       </div>
